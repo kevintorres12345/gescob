@@ -61,7 +61,7 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 50px;
     font-weight: bold;
 }
 
@@ -803,8 +803,15 @@ h4 {
         display: none;
     }
 }
-.images{
-    height: 110px;
-    /* width: 219px; */
-    
+
+.mapa{
+    font-size: 20px;
+
+}
+
+.imagenPpal{
+border-radius: 20px;
+}
+.iconos{
+    margin:0 8px 8px 0;
 }
