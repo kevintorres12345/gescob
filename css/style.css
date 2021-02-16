@@ -814,3 +814,10 @@ border-radius: 20px;
 .iconos{
     margin:0 8px 8px 0;
 }
+.login{
+    opacity: 0.9;
+    border-radius: 6%;
+}
+.video{
+    background: #686b75;
+}
