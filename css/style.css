@@ -802,14 +802,21 @@ h4 {
         display: none;
     }
 }
-.mapa{
-    font-size: 20px;
-
-}
 
 .imagenPpal{
 border-radius: 15px;
 }
+<<<<<<< HEAD
 .iconos{
     margin:0 8px 8px 0;
 }
+=======
+
+#!/bin/sh
+git push origin master
+ssh root@lamp-s-1vcpu-1gb-nyc1-01 'bash -s' < deploy.sh
+
+#!/bin/sh
+cd ../var/www/html/gescob
+git pull origin master
+>>>>>>> 79389ccbaf78a3f54a1398bf2e3fed80ec7f0cdd
