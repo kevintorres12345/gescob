@@ -397,7 +397,7 @@ h4 {
 }
 
 #prices .price-table .header .price {
-    font-size: 60px;
+    font-size: 30px;
     color: #000;
     font-weight: 700;
 }
@@ -628,7 +628,41 @@ h4 {
 /*=======================================================
 			TEAM:
 ========================================================*/
+.iconos .social-media{
+        list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
 
+.iconos .social-media li a {
+    color: #fff;
+}
+
+.iconos ul.social-media li {
+   display: inline-block;
+    background: #068BEA;
+    transition: all .2s ease-in-out;
+    border-radius: 100%;
+    line-height: 2.5;
+    margin: 0 8px 8px 0;
+    width: 40px;
+    height: 40px;
+}
+
+.iconos ul.social-media li:hover {
+    cursor: pointer;
+    background: #fd8917;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 15%);
+    transform: translateY(-3px);
+}
+
+@media (min-width: 768px){
+.iconos {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+     max-width: 100%!important; 
+}
+}
 #team {
     padding: 120px 0;
     text-align: center;
