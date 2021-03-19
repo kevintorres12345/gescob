@@ -852,3 +852,12 @@ border-radius: 15px;
     background: #686b75;
 }
 
+.price-table li {
+    text-align: center;
+    padding-left: 1.5em;
+    padding-top: .2em;
+}
+.price-table i.fa.fa-check {
+    border-bottom-style: outset;
+    margin-right: 10px;
+}
